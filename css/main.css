@@ -288,8 +288,8 @@ img { vertical-align: middle; }
 }
 .topics-list .description {
     color: rgb(77, 77, 77);
-    font-size: 12px;
-    line-height: 1.75;
+    font-size: 14px;
+    line-height: 2.00;
 }
 
 
@@ -539,8 +539,33 @@ img { vertical-align: middle; }
     padding-top: 50px;
     padding-bottom: 40px;
     width: 960px;
+   
+}
+.page-title h2
+{
+    display: block;
+    font-size: 24px;
+    line-height: 1.34;
+    letter-spacing: 2px;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
+.page-title br{
+padding-top: 5px 
+}
+
+.page-title a{
+  padding-left: 0.5px;
+  font-size:14px;
+}
+hr {
+    border:0; height:0.5px; background-color:#d4d4d4;
+    color:#d4d4d4   
+     -webkit-box-shadow: 0  1px 1px rgba(0, 0, 0, 0.25);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
 /* Social links */
 .social-links {
     float: left;
@@ -618,6 +643,8 @@ img { vertical-align: middle; }
     line-height: 0;
     margin-left: -40px;
 }
+
+
 .no-js .back-to-top {
     display: none;
 }
