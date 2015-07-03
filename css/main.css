@@ -521,11 +521,13 @@ img { vertical-align: middle; }
 .contact-map {
     position: absolute;
     width: 352px;
+    left: 5%;
     padding: 56px 64px 0;
   
 }
 .contact-map .static-map {
     position: absolute;
+
     right: 0;
 }
 
