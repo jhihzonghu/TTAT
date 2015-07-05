@@ -156,12 +156,14 @@ img { vertical-align: middle; }
 
 /* Primary nav */
 .primary-nav {
+
     float: right;
     line-height: 65px;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 .primary-nav li {
+    
     float: left;
 }
 .primary-nav a {
@@ -169,12 +171,14 @@ img { vertical-align: middle; }
     padding: 0 1.36em;
 }
 .primary-nav a:hover {
+
     background-color: rgb(240, 240, 240);
 }
 
 /* Sticky header (clone) */
 .page-header-clone {
     background-color: rgb(135, 206, 235);
+    color: rgb(255,255,255);
     opacity: 0.9;
     position: fixed;
     top: -35px;
@@ -209,13 +213,13 @@ img { vertical-align: middle; }
     display: inline-block;
 }
 .page-header-clone .primary-nav {
+ 
     font-size: 14px;
     line-height: 35px;
 }
 .page-header-clone .primary-nav a {
-    color: rgb(128, 128, 128);
+   color: rgb(255, 255, 255);
 }
-
 
 /*
  * Topics section
