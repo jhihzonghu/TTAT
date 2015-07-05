@@ -611,6 +611,10 @@ line-height: 5px;
     margin-left: -90px;
 }
 
+.page-footer
+{
+    background-color: rgb(255, 255, 255)
+}
 .page-footer hr {
     border:0; height:0.5px; background-color:#d4d4d4;
     color:#d4d4d4   
