@@ -552,14 +552,15 @@ img { vertical-align: middle; }
 
 .page-footer > .inner {
     margin: 0px auto;
-    padding-top: 50px;
-    padding-bottom: 40px;
-    width: 980px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 960px;
    
 }
 
 .page-title h2
 {
+    text-align: center;
     margin-top: 30px;
     display: block;
     font-size: 24px;
@@ -638,9 +639,10 @@ line-height: 5px;
 /* Copyright */
 .copyright {
     text-align: right;
+    padding-left: 10px;
     color: rgb(255, 255, 255);
     font-size: 12px;
-    padding: 6px 0;
+    padding: 4px 0;
     float: right;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -650,8 +652,8 @@ line-height: 5px;
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 12px;
-    padding: 6px 0;
-    margin-left: 260px;
+    padding-right: 5px;
+    margin-left: 80px;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
