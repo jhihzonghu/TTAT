@@ -25,7 +25,7 @@ img { vertical-align: middle; }
  */
 
 .slideshow {
-    background-color: rgb(0, 0, 0);
+    
     height: 465px;
     min-width: 960px;
     overflow: hidden;
@@ -142,7 +142,7 @@ img { vertical-align: middle; }
  */
 
 .page-header {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(27, 88, 184);
     width: 100%;
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
             box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
@@ -164,7 +164,7 @@ img { vertical-align: middle; }
 
 /* Primary nav */
 .primary-nav {
-
+    color: rgb(255,255,255);
     float: right;
     line-height: 65px;
     letter-spacing: 1px;
@@ -180,7 +180,7 @@ img { vertical-align: middle; }
 }
 .primary-nav a:hover {
 
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(0, 216, 204);
 }
 
 /* Sticky header (clone) */
@@ -372,13 +372,13 @@ img { vertical-align: middle; }
 
 /* ハイライト */
 .work-section .tabs-highlight {
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(0, 216, 204);
     height: 100%;
     position: absolute;
     width: 120px;
 }
 .work-section .tabs-highlight:after {
-    background: url(../img/sprites.png) no-repeat 0 0;
+
     content: "";
     position: absolute;
     width: 37px;
@@ -391,6 +391,7 @@ img { vertical-align: middle; }
 
 /* パネル */
 .work-section .section-body {
+    background-color: rgb(255,255,255);
     height: 400px;
     position: relative;
 }
@@ -473,7 +474,8 @@ img { vertical-align: middle; }
 .contact-section > .inner {
     height: 500px;
     position: relative;
-    min-width: 960px;
+    width: 960px;
+    margin: 0px auto;
 }
 .contact-section h2 {
     font-size: 18px;
@@ -549,17 +551,16 @@ img { vertical-align: middle; }
  */
 
 .page-footer > .inner {
-    margin: auto;
+    margin: 0px auto;
     padding-top: 50px;
     padding-bottom: 40px;
-    width: 960px;
+    width: 980px;
    
 }
 
 .page-title h2
 {
     margin-top: 30px;
-    text-align: center;
     display: block;
     font-size: 24px;
     line-height: 1.34;
@@ -600,7 +601,7 @@ line-height: 5px;
     margin-left: 0;
 }
 .social-links a {
-    border: 1px solid rgb(153, 153, 153);
+    border: 1px solid rgb(255, 255, 255);
     display: block;
     padding: 6px;
 }
@@ -625,7 +626,7 @@ line-height: 5px;
 
 .page-footer
 {
-    background-color: rgb(255, 255, 255)
+    background-color: rgb(0, 30, 78)
 }
 .page-footer hr {
     border:0; height:0.5px; background-color:#d4d4d4;
@@ -636,7 +637,8 @@ line-height: 5px;
 }
 /* Copyright */
 .copyright {
-    color: rgb(102, 102, 102);
+    text-align: right;
+    color: rgb(255, 255, 255);
     font-size: 12px;
     padding: 6px 0;
     float: right;
@@ -645,10 +647,11 @@ line-height: 5px;
 }
 
 .info {
-    color: rgb(102, 102, 102);
+    text-align: center;
+    color: rgb(255, 255, 255);
     font-size: 12px;
     padding: 6px 0;
-    margin-left: 200px;
+    margin-left: 260px;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
