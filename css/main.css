@@ -36,14 +36,14 @@ img { vertical-align: middle; }
     height: 100%;
     position: absolute;
     width: 100%;
-    /* left は JavaScript で指定 */
+ 
 }
 .slideshow-slides .slide {
     height: 100%;
     overflow: hidden;
     position: absolute;
     width: 100%;
-    /* left は JavaScript で指定 */
+  
 }
 .slideshow-slides .slide img {
     left: 50%;
@@ -343,7 +343,7 @@ img { vertical-align: middle; }
     letter-spacing: 5px;
 }
 
-/* タブ */
+
 .work-section .tabs-nav {
     border-left: 1px solid rgb(218, 218, 218);
     float: right;
@@ -370,7 +370,7 @@ img { vertical-align: middle; }
     color: rgb(255, 255, 255);
 }
 
-/* ハイライト */
+
 .work-section .tabs-highlight {
     background-color: rgb(0, 216, 204);
     height: 100%;
@@ -389,7 +389,7 @@ img { vertical-align: middle; }
     z-index: 10;
 }
 
-/* パネル */
+
 .work-section .section-body {
     background-color: rgb(255,255,255);
     height: 400px;
@@ -424,16 +424,16 @@ img { vertical-align: middle; }
     left: 680px;
 }
 .work-section .section-body #work02 .content > .inner {
-    top: 220px;
-    left: 40px;
+      top: 100px;
+    left: 680px;
 }
 .work-section .section-body #work03 .content > .inner {
-    top: 130px;
-    left: 50px;
+      top: 100px;
+    left: 680px;
 }
 .work-section .section-body #work04 .content > .inner {
-    top: 130px;
-    left: 50px;
+     top: 100px;
+    left: 680px;
 }
 .work-section .section-body #work05 .content > .inner {
     top: 130px;
