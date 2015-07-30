@@ -37,14 +37,14 @@
 <div class="LatestPromotion_list_content">
   <h1>資訊列表</h1>
   <hr></hr>
-  <ul class="class=LatestPromotion_list_content">
-    <li class="class=LatestPromotion_list_content">
-    <img src="./img/logo.png" />
-        <ul class="class=LatestPromotion_list_content">
-            <li class="class=LatestPromotion_list_content">text</li>
-            <li>text</li>
-            <li>text</li>
-        </ul>
+  <ul >
+    <li >
+     <a href ="./" class="LatestPromotion_ul_text">  information 1 <span>2015-07-31</span></p>
+        <a href ="./" class="LatestPromotion_ul_text">  information 1 <span>2015-07-31</span></p>
+        <a href ="./" class="LatestPromotion_ul_text">  information 1 <span>2015-07-31</span></p>
+        <a href ="./" class="LatestPromotion_ul_text">  information 1 <span>2015-07-31</span></p>
+         <a href ="./" class="LatestPromotion_ul_text">  information 1 <span>2015-07-31</span></p>
+          <a href ="./" class="LatestPromotion_ul_text">  information 1 <span>2015-07-31</span></p>
     </li>
     <!-- <p clas="LatestPromotion_list_content1"><a href="./">富立燈歡竟周年活動</a></p>
     <p clas="LatestPromotion_list_content">2015-07-03 ~ 2015-08-31</p>
