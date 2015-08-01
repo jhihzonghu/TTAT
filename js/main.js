@@ -5,7 +5,7 @@ $(function () {
      */
     $('.slideshow').each(function () {
 
-    // 変数の準備
+    //
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
         var $container = $(this),                                 // a

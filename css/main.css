@@ -11,6 +11,37 @@ img { vertical-align: middle; }
 .clearfix:before, .clearfix:after { content: " "; display: table; }
 .clearfix:after { clear: both; }
 
+.titleBar 
+{
+ padding-top: 20px;
+ position: relative;
+ text-align: center;
+ font-weight: normal;
+
+}
+
+.titleBar >.inner
+{
+padding-top: 90px;
+padding-bottom: 75px;
+width: 960px;
+margin: auto;
+}
+.titleBar h1
+{
+letter-spacing: 2px;
+ margin: auto;
+ text-align: center;
+ vertical-align: middle;
+   font-weight: normal;
+}
+.titleBar hr
+{
+      border: 0;
+    height: 2px;
+    width: 960px;
+    background-color:#1E90FF;
+}
 .date 
 {
     color: rgb(128, 128, 128);
@@ -241,7 +272,7 @@ img { vertical-align: middle; }
 }
 .topics-section > .inner {
     margin: auto;
-    padding-top: 90px;
+    padding-top: 45px;
     padding-bottom: 75px;
     width: 960px;
 }
