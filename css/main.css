@@ -145,7 +145,6 @@ letter-spacing: 2px;
     margin-left: -130px;
 }
 
-/* JavsScript 無効時 */
 .no-js .slideshow {
     height: auto;
 }
@@ -292,6 +291,7 @@ letter-spacing: 2px;
 }
 .topics-list .image-wrapper {
     display: inline-block;
+    float: left;
     margin-bottom: 1.5em;
     position:relative;
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
@@ -357,7 +357,6 @@ letter-spacing: 2px;
     text-transform: uppercase;
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
             box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
-    position: relative;
 }
 .no-boxshadow .work-section .section-header {
     border-top: 1px solid rgb(204, 204, 204);
@@ -459,7 +458,7 @@ letter-spacing: 2px;
     left: 680px;
 }
 .work-section .section-body #work03 .content > .inner {
-      top: 100px;
+    top: 100px;
     left: 680px;
 }
 .work-section .section-body #work04 .content > .inner {
@@ -609,18 +608,14 @@ letter-spacing: 2px;
  .LatestPromotion_ul_text  >.inner
  {
             
-   
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 960px;
  }
 
   .LatestPromotion_ul_text  a{
-
-     float: right;
-            font-size:22px;
-            line-height: 40px;
-            height: 40px;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            padding-left: 25px;
+       font-size:20px;
   }
 .LatestPromotion_list_content1 p 
  {
@@ -752,8 +747,9 @@ color: #696969;
 /* Map */
 .contact-map {
     position: absolute;  
-    width: 352px ; 
-    padding: 56px 64px 0;
+    width: 960px ; 
+ /*   padding: 56px 64px 0;*/
+   padding-top: 50px;
     line-height: 2.0;
 }
 
@@ -873,10 +869,11 @@ line-height: 5px;
 }
 .page-footer hr {
     border:0; height:0.5px; background-color:#d4d4d4;
-    color:#d4d4d4   
-     -webkit-box-shadow: 0  1px 1px rgba(0, 0, 0, 0.25);
-            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    color:#d4d4d4 ;  
     position: relative;
+    -webkit-box-shadow: 0  1px 1px rgba(0, 0, 0, 0.25);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    
 }
 /* Copyright */
 .copyright {
