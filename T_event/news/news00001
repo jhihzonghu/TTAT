@@ -20,7 +20,7 @@
 
 <header class="page-header" role="banner">
     <div class="inner clearfix">
-        <h1 class="site-logo"><a href="../index.html"><img src="../../img/logo.png" alt="Shiftbrain" height="65" width="65"></a></h1>
+        <h1 class="site-logo"><a href="../../index.html"><img src="../../img/logo.png" alt="Shiftbrain" height="65" width="65"></a></h1>
          <nav class="primary-nav" role="navigation">
             <ul>
                 <li><a href="../../list.html">印象桃園</a></li>
